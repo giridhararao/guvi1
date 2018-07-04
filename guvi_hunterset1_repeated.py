@@ -11,5 +11,8 @@ for e in range(a):
         if(b[e]==b[f]):
           c[i]=b[f] 
           i=i+1
-c.sort()
-print(c)
+if(i==0):
+  print("unique")
+else:
+  c.sort()
+  print(c)
