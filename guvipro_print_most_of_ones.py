@@ -12,7 +12,8 @@ for i in range(a):
 for j in range(a): 
    d[j]=sample(b[j])
 d.sort(reverse=true)
-print(d)
+for k in range(a):
+    print("/n"+str(d[k]))
  
 
   
