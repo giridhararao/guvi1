@@ -9,7 +9,7 @@ for j in range(a):
   x=int(input())
   c.insert(j,x)
 d=b[::-1]
-if(b==d):
+if(c==d):
    print("Yes")
 else:
-   print("No)
+   print("No")
