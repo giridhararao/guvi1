@@ -1,11 +1,7 @@
 a=int(input())
-b=list();
-i=0
-for c in range(a):
-  b=int(input())
-for d in range(a):
-  for e in range(a):
-     if(b[d]!=b[e] and (d!=e)):
-        i=i+1
-   if(i==a)
-     print(d)
+b=input().split()
+c=len(b)
+for i in range(0,c):
+	z=b.count(b[i])
+	if (z<2):
+		print(b[i])
