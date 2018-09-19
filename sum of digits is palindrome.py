@@ -1,0 +1,17 @@
+a=input()
+b=int(a)
+r=0
+c=0
+while(b!=0):
+    d=b%10
+    c=c+d
+    b=b//10
+i=c
+while(c!=0):
+    e=c%10
+    r=(r*10)+e
+    c=c//10
+if(i==r):
+    print("YES")
+else:
+    print("NO")
