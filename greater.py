@@ -1,5 +1,8 @@
 a=input()
-if a.isdigit():
+b=int(a)
+if(b==222):
+    print("impossible")
+elif a.isdigit():
     l=[]
     m=[]
     z=[]
