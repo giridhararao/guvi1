@@ -10,15 +10,14 @@ def lcs(S,T):
                 y = counter[i][j] + 1
                 counter[i+1][j+1] = y
                 if y > longest:
-                    w= set()
+                    w=[]
                     longest = y
-                    w.add(S[i-y+1:i+1])
+                    w.append(S[i-y+1:i+1])
                 elif y == longest:
-                    w.add(S[i-y+1:i+1])
+                    w.append(S[i-y+1:i+1])
+    w=w[::-1]
 
-    return w
+    print(w[0])
 a=input()
 b=input()
-ret = lcs(a,b)
-for x in ret:
-    print(x)
+lcs(a,b)
