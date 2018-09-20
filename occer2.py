@@ -3,7 +3,7 @@ if n.isdigit():
 	n=int(n)
 	l=[]
 	d=0
-	for i in range(1,n):
+	for i in range(1,n+1):
 		i=str(i)
 		if len(i)==1:
 			if int(i)==2:
