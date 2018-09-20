@@ -21,7 +21,9 @@ def lcs(S,T):
 x,y=input().split()
 a=len(x)
 b=len(y)
-big=0
+ref=0
+if(a==1 or b==1):
+    ref=1
 if(a>b):
     big=a
 else:
@@ -29,7 +31,9 @@ else:
 c=[]
 c=lcs(x,y)
 d=len(c)
-if(d==1):
+if(d==1 and ref==1):
+    print(big-d)
+elif(d==1):
     print(big)
 else:
     print(big-d)
