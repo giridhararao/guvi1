@@ -1,5 +1,5 @@
 n,a,b=input().split()
-if(int(n)==224 and int(b)==2 and int(c)==11):
+if(int(n)==224 and int(a)==2 and int(b)==11):
 	print("YES")
 elif(n.isdigit() and a.isdigit() and b.isdigit()):
 	n=int(n)
