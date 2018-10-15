@@ -4,11 +4,11 @@ o=0
 b=a
 if (n=='IX'):
 	print("9")
-if (n=='XIX'):
+elif (n=='XIX'):
 	print("19")
-if(n=='XIV'):
+elif(n=='XIV'):
         print("14")
-if(n=='IV'):
+elif(n=='IV'):
         print("4")
 else:
 	while(b>0):
