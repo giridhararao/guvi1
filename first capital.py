@@ -20,7 +20,7 @@ for i in range(0,y):
 		s=b[i].upper()
 		f.append(s)
 	elif(i>0):
-                s=a[i].lower()
+                s=b[i].lower()
                 f.append(s)
 m="".join(f)
 g.append(m)
