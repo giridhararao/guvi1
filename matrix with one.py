@@ -1,8 +1,8 @@
 import sys, string, math
 def Matrixone(M):
-    m1 = len(M)  
-    m2 = len(M[0])  
-    out = [[0 for k in range(m2)] for l in range(m1)]
+    R = len(M)  
+    C = len(M[0])  
+    out = [[0 for k in range(C)] for l in range(R)]
 
     for i in range(1, R):
         for j in range(1, C):
