@@ -1,5 +1,5 @@
 import sys,string
 
 n = input()
-if .isnumeric() : print('yes')
+if n.isnumeric() : print('yes')
 else :             print('no')
