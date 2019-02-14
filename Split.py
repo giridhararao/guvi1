@@ -8,7 +8,7 @@ if n1 > n2-1 :
     print(-1)
     sys.exit()
 s = ''
-if n2-n,1 == 1 :
+if n2-n1 == 1 :
     s = '1'+'01'*n1
     print(s)
     sys.exit()
